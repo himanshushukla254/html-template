@@ -1,0 +1,23 @@
+#ali{margin-top:30px;margin-left:30px;font-size:40px;font-weight:40px;}
+ul{list-style:none;padding:10px;margin:10px;}
+ul li{display:block;position:relative;float:left;border:5px;}
+li ul{display:none;}
+ul li a{display:block;background:orange;padding:8px 8px 8px;text-decoration:none;white-space:nowrap;color:blue;}
+ul li a:hover{background:pink;}
+li:hover ul{display:block;position;relative;}
+li:hover li{float:none}
+li:hover a{background:lime;}
+li:hover li a:hover{background:red;}
+#drop-nav li ul li{border-top:0px;}
+#circle{ background-color:pink;
+         text-align:left;
+         padding:5px;
+         margin-bottom:50px; 
+		 margin-top:250px;
+		 position:absolute;
+		 width:100%;}
+#rect{   width:350px;
+         float:left;
+         padding:10px;
+     }
+
